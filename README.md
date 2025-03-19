@@ -64,6 +64,5 @@ post_message(&signer, message: vector<u8>)
 - **Storage Limitations**: Consider limiting the size of posts to prevent excessive storage costs.
 - **Spam Protection**: Future improvements may include rate-limiting or staking mechanisms to prevent spam.
 
-## License
-This project is licensed under the MIT License.
+
 

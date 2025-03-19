@@ -1,68 +1,38 @@
 # Decentralized Social Media Smart Contract
 
-## Table of Contents
-1. [Introduction](#introduction)
-2. [Features](#features)
-3. [Prerequisites](#prerequisites)
-4. [Installation](#installation)
-5. [Usage](#usage)
-6. [Smart Contract Structure](#smart-contract-structure)
-7. [Security Considerations](#security-considerations)
-8. [License](#license)
+## Project Title
+Decentralized Social Media Smart Contract
 
+## Project Description
+This project aims to build a fully decentralized social media platform where users have complete control over their data. By leveraging blockchain technology, we eliminate centralized control, ensuring user autonomy, censorship resistance, and enhanced data security.
+
+## Project Vision
+The vision behind this project is to create a transparent, user-driven social media ecosystem. Unlike traditional platforms that monetize user data and enforce arbitrary rules, this decentralized platform ensures:
+- Full ownership of content by users.
+- No centralized authority controlling interactions.
+- Immutable records and secure transactions.
+- Censorship resistance and open participation.
+
+## Future Scope
+While the initial implementation focuses on smart contracts governing user interactions, future enhancements may include:
+- **DAO Integration**: Community-driven governance for feature updates and content moderation.
+- **Interoperability**: Bridging with other blockchain networks for wider adoption.
+- **Decentralized Storage**: Using IPFS or Arweave for scalable and efficient content storage.
+- **Monetization Features**: Token-based incentives for content creators and curators.
+- **Privacy Enhancements**: Zero-knowledge proofs for secure yet verifiable user interactions.
+
+## Key Features
+- **User-Owned Data**: No third-party access or control over personal information.
+- **Smart Contract-Driven Governance**: Transparent and immutable rules encoded in smart contracts.
+- **Censorship Resistance**: No entity can unilaterally remove content.
+- **Decentralized Identity**: Users authenticate with blockchain-based identity solutions.
+- **Content Monetization**: Native tokens for rewarding contributions.
+- **Secure Messaging**: Peer-to-peer encrypted communication.
+
+This README serves as an introduction to the Decentralized Social Media Smart Contract project and outlines its core objectives and future directions.
+
+## Contract Address
+0x0e4f0f91612d33c3845e7aab1e5f9542e0716231a84b47ba9c26f00c861c2909
 ---
 
-## Introduction
-This project implements a decentralized social media platform using Move, a secure and flexible smart contract language on the Aptos blockchain. The smart contract enables users to create profiles and post messages in a trustless and transparent manner.
-
-## Features
-- **Decentralized Profiles**: Users can create profiles stored directly on the blockchain.
-- **Immutable Posts**: Posts are stored in a verifiable and censorship-resistant way.
-- **Transparent Storage**: Data is stored in a decentralized and publicly auditable manner.
-
-## Prerequisites
-- Aptos CLI installed
-- Move compiler and Aptos development tools
-- A funded Aptos testnet account
-
-## Installation
-1. Clone the repository:
-   ```sh
-   git clone https://github.com/your-repo/decentralized-social-media.git
-   cd decentralized-social-media
-   ```
-2. Build the smart contract:
-   ```sh
-   aptos move compile
-   ```
-3. Deploy to the Aptos testnet:
-   ```sh
-   aptos move publish --profile testnet
-   ```
-
-## Usage
-### Creating a Profile
-Users can create a profile by calling:
-```move
-create_profile(&signer)
-```
-
-### Posting a Message
-Users can post a message using:
-```move
-post_message(&signer, message: vector<u8>)
-```
-
-## Smart Contract Structure
-### Module: `MyModule::DecentralizedSocialMedia`
-- **Struct `Profile`**: Represents a user profile with an `owner` address and a list of `posts`.
-- **Function `create_profile`**: Allows a user to initialize their profile.
-- **Function `post_message`**: Allows users to post messages.
-
-## Security Considerations
-- **Access Control**: Only the profile owner can post messages.
-- **Storage Limitations**: Consider limiting the size of posts to prevent excessive storage costs.
-- **Spam Protection**: Future improvements may include rate-limiting or staking mechanisms to prevent spam.
-
-
-
+![image](https://github.com/user-attachments/assets/37578ff8-14a6-4383-b723-b6aa13190a17)
